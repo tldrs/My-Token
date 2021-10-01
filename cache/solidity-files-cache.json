@@ -2,9 +2,45 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/kelcheone/source/EthDev/Hardhat-Tutorial/contracts/Token.sol": {
-      "lastModificationDate": 1632938287567,
-      "contentHash": "85938f2ca92d987bd949ee155963a2ae",
+      "lastModificationDate": 1633115102939,
+      "contentHash": "e66b49a25e4d7af38954457a5c00f202",
       "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "/home/kelcheone/source/EthDev/Hardhat-Tutorial/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1632932807707,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
       "solcConfig": {
         "version": "0.7.3",
         "settings": {
@@ -29,10 +65,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.7.0"
+        ">=0.4.22 <0.9.0"
       ],
       "artifacts": [
-        "Token"
+        "console"
       ]
     }
   }
